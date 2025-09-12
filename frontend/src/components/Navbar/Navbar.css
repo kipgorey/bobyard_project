@@ -1,0 +1,37 @@
+.navbar {
+    background: linear-gradient(
+    135deg,
+    rgba(255, 145, 77, 1.0),
+    rgba(242, 178, 147, 0.4),
+    rgba(255, 145, 77, 1.4)
+    );
+    padding: 0.8rem 1.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    border-radius: 25px;
+    max-width: 90%;
+    margin-inline: 5%;
+    backdrop-filter: blur(10px) saturate(150%);
+    -webkit-backdrop-filter: blur(10px) saturate(150%);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 1rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar-link:hover {
+    color: #f5f5f5;
+}

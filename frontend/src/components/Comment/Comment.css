@@ -1,0 +1,152 @@
+/* In Comment.css */
+
+.comment-box {
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .comment-box:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1.25rem;
+    object-fit: cover;
+    border: 2px solid #e0e0e0;
+  }
+  
+  .comment-content {
+    flex: 1;
+  }
+  
+  .comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .comment-header strong {
+    font-size: 1.2rem;
+    color: #333333;
+    font-weight: 700; /* Bold to emulate the Stripes font style */
+  }
+  
+  .comment-date {
+    font-size: 0.8rem;
+    color: #888888;
+  }
+  
+  .comment-content p {
+    font-size: 1.1rem;
+    color: #555555;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .comment-edit-textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    font-family: inherit;
+    font-size: 1.1rem;
+    resize: vertical;
+    margin-bottom: 1rem;
+  }
+  
+  .comment-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  
+  .like-button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 0.75rem;
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .like-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .like-button svg {
+    color: #999999;
+    transition: color 0.2s ease;
+  }
+  
+  .like-button.liked svg {
+    fill: #ff6b6b;
+    stroke: #ff6b6b;
+  }
+  
+  .like-count {
+    font-size: 0.9rem;
+    color: #888888;
+    margin-left: 0.5rem;
+  }
+  
+  .comment-controls button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* New color scheme for buttons */
+  .edit-button {
+    background-color: #ff914d; /* Muted orange */
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #e57e43;
+  }
+  
+  .delete-button {
+    background-color: #f0f0f0;
+    color: #d9534f;
+  }
+  
+  .delete-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .edit-save {
+    background-color: #64b5f6; /* A calming blue for "Save" */
+    color: white;
+  }
+  
+  .edit-save:hover {
+    background-color: #58a5e1;
+  }
+  
+  .edit-cancel {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .edit-cancel:hover {
+    background-color: #e53935;
+  }
